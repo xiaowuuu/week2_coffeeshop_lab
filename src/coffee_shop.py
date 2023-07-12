@@ -9,8 +9,9 @@ class CoffeeShop:
 
 	
 	def sell_drink(self, drink, customer):
-		customer.drink_to_buy(drink)
+		customer.buy_drink(drink)
 		self.change_till_by_amount(drink.price)
 	
+
 	
 	
